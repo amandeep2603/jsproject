@@ -1,0 +1,51 @@
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    border: 2px solid rgb(240, 205, 205);
+    padding: 5rem;
+    filter: drop-shadow(3px 6px 4px rgb(240, 205, 205));
+    opacity: 1;
+    transition: all 2s ease-in-out;
+}
+
+h1{
+    color: currentColor;
+}
+p{ 
+    color: currentColor;
+}
+.btn{
+    background: transparent;
+    color: currentColor;
+    border: 2px solid currentColor;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+.dark{
+    background-color: black;
+    color: yellow;
+}
+.skylight{
+    background-color:#005d94 ;
+    color: #00acce;
+}
+.tomato{
+    color:black ;
+    background-color: coral;
+}
+.devil{
+    color: crimson;
+    background-color: black;
+    
+}
+.show{
+    opacity: 1;
+}
